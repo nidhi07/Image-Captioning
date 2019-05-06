@@ -32,15 +32,22 @@ The dataset consists of 8000 images with which 5 captions are associated. Captio
 
 
 ![experiment](example.jpg)
+
+
 LSTM: A man in red shirt is standing on the beach
+
 GRU : A man in red shirt is running down the street
+
 BiLSTM: A man in red shirt is standing on the beach
 
 ## Requirements
 
 numpy==1.16
+
 keras==2.2.0
+
 pickle==4.0
+
 nltk==3.3
 
 ## Instructions
