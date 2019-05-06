@@ -19,7 +19,7 @@ The dataset consists of 8000 images with which 5 captions are associated. Captio
 
 3. Final Model: We take inputs from image feature extractor and word embedding generator and add them. The output of the previous action is then fed to a dense layer of vocabulary size.  
 
-![Model](Model.jpg)
+![Model](model2.jpg)
 
 
 ## Results and Observations
