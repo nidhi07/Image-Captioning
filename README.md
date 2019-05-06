@@ -1,17 +1,17 @@
-## Image-Captioning
+# Image-Captioning
 
-# Objective
+## Objective
 
 Given an image, write a description describing the scene
 
-# Dataset
+## Dataset
 
 Flickr8k Dataset:
 
 The dataset consists of 8000 images with which 5 captions are associated. Captions are short sentences describing salient entities and events in the image. The images does not contain any well-known person or location but carefully chosen to have multiple types of situations and scenes.
 
 
-# Model Pipeline
+## Model Pipeline
 
 1. Images Feature Extractor: We used pretrained VGG16 model to extract intermediate representation from 2nd last dense layer. We extract features for each image and store it in a file called features.pkl. The feature for each image extracted is of size (4096x1).
 
@@ -22,7 +22,7 @@ The dataset consists of 8000 images with which 5 captions are associated. Captio
 ![Model](Model.jpg)
 
 
-# Results and Observations
+## Results and Observations
 
 | __Models__   | __BLEU-1__ | __BLEU-2__ | __BLEU-3__ | __BLEU-4__ |
 |------------- |------------|------------|------------|------------|
@@ -36,16 +36,16 @@ LSTM: A man in red shirt is standing on the beach
 GRU : A man in red shirt is running down the street
 BiLSTM: A man in red shirt is standing on the beach
 
-# Requirements
+## Requirements
 
 numpy==1.16
 keras==2.2.0
 pickle==4.0
 nltk==3.3
 
-# Instructions
+## Instructions
 
-# References
+## References
 
 @article{,
 title= {Flickr8k Dataset},
