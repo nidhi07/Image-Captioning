@@ -40,6 +40,15 @@ GRU : A man in red shirt is running down the street
 
 BiLSTM: A man in red shirt is standing on the beach
 
+![experiment](example2.jpg)
+
+
+LSTM: two men are playing soccer
+
+GRU : the football player is running in the field
+
+BiLSTM: two men are playing soccer in the grass
+
 ## Requirements
 
 numpy==1.16
